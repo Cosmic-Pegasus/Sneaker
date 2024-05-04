@@ -1,0 +1,278 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.sneakers-navbar{
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(17, 17, 16);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0%;
+    overflow: hidden;
+}
+.sneakers-logo{
+   width: 7.5rem;
+   height: 5rem;
+}
+.sneakers-navlink-container{
+    width: 100%;
+    display: flex;
+    padding-left: 15px;
+} 
+.sneakers-navlink{
+   text-decoration: none;
+   color: whitesmoke;
+   font-family: righteous;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 5rem;
+   width: 7rem;
+}
+.sneakers-navlink-dif{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: righteous;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 9rem;
+}
+.img-box{
+    width: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sneakers-cart-img{
+    width: 45px;
+    height: 45px;
+    margin-right: 4rem;
+}
+.sneakers-navlink:hover{
+    background-color: rgb(129, 184, 184);
+    color: rgb(15, 14, 14);
+    transition: 300ms;
+}
+.sneakers-navlink-dif:hover{
+    background-color: rgb(129, 184, 184);
+    color: rgb(10, 9, 9);
+    transition: 300ms;
+}
+.carousel{
+    height: 80vh;
+}
+.carousel-item{
+    height: 80vh;
+}
+.carousel-inner{
+    height: 80vh;
+}
+#img-size{
+    height: 80vh;
+}
+.HotDrops{
+   width: 100%;
+   height: 100%;
+   padding-top: 2rem;
+}
+.HotDrops-heading{
+    font-family: 'Rubik Marker Hatch';
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.hotdrops-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.hotdrop:hover{
+    background-color: rgb(215, 232, 233);
+    border-radius: 12px;
+}
+.hotdrop{
+    width: 20%;
+    padding: 1rem 1rem 1rem 1rem;
+    transition: 100ms;
+}
+.hotdrop-fade{
+    font-family: raleway;
+    font-size: 0.8rem;
+}
+.hotdrop-name{
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.hotdrop-rate{
+    font-family: urbanist;
+    font-size: 0.8rem;
+}
+.Brand{
+    width: 100%;
+    height: 100%;
+    margin-top: 4rem;
+}
+.Brand-heading{
+    font-family: 'Rubik Marker Hatch';
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.brand-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem ;
+}
+.brands{
+    width: 30%;
+}
+.brand-img{
+    width: 100%;
+    transition: 300ms;
+}
+.brand-img:hover{
+    border-radius: 18px;
+}
+.category{
+    margin-top: 4rem;
+}
+.category-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.categories{
+    width: 45%;
+}
+.category-img{
+    width: 100%;
+}
+.category-title{
+    font-family: righteous;
+    font-size: 2vw;
+}
+.quality{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+}
+.dark-title{
+    font-family: urbanist;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.light-title{
+    font-family: raleway;
+}
+.container2{
+    width: 45%;
+    margin-left: 2rem;
+    display: inline-block;
+}
+.hr{
+    width: 100%;
+    height: 3px;
+    margin-top: 4rem;
+}
+.ml-3{
+    font-family: righteous;
+}
+#input-email{
+    width: 50%;
+}
+.text-gray-400{
+    font-family: urbanist;
+}
+.text-sm{
+    font-family: righteous;
+}
+.heading{
+    font-family: urbanist;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.Order{
+    width: 83%;
+    float: right;
+    margin-top: 6rem;
+}
+.Order-title{
+    font-family: 'Rubik Marker Hatch';
+    font-size: 3vw;
+    padding: 10px 10px 10px 10px;
+}
+#makeItFlex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.leading-relaxed{
+    font-family: urbanist;
+}
+.text-gray-900{
+    font-family: Montserrat;
+}
+.ShoeItem-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.flexContainer{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding-top: 3%;
+   margin-left: 15%;
+} 
+.ShoeItem{
+    width: 20%;
+    padding: 1rem 1rem 1rem 1rem;
+    transition: 500ms;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.ShoeItem:hover{
+    background-color: rgb(215, 232, 233);
+    border-radius: 12px;
+}
+.headingOrderPage{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 20%;
+    padding-top: 8%;
+}
+.w-56{
+    background-color: rgb(31, 59, 53);
+    color: aliceblue;
+}
+.text-sm{
+    color: rgb(128, 211, 183);
+    transition: 100ms;
+}
+.text-sm:hover{
+    color: aqua;
+}
+.link-connect{
+    font-family: urbanist;
+    font-size: 1rem;
+    position: relative;
+    top: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px ;
+}

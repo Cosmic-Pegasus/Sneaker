@@ -1,0 +1,32 @@
+
+
+
+
+
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.midswiper {
+    height: 80%;
+    width: 100%;
+}
+
+.midswiper2 {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.midswiper2 .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.midswiper2 .swiper-slide-thumb-active {
+    opacity: 1;
+}
+

@@ -1,0 +1,61 @@
+.shop-container{
+    padding: 2%;
+	        animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+.shop-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop-heading{
+    font-family: Righteous;
+    font-size: 1.8vw;
+    font-weight: bold;
+
+}
+.shoeItem{
+    width: 30%;
+    padding: 1rem 1rem 1rem 1rem;
+    transition: 200ms ease-in;
+}
+.shoeItem:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.shoeImg{
+    width: auto;
+    height: auto;
+    margin-top: 2%;
+    background-color: rgba(240, 240, 240, 0.603);
+}
+.shoeName{
+    font-family: raleway;
+    font-weight: bold;
+    margin-top: 4%;
+}
+.shoePrice{
+    font-family: raleway;
+}
+.cart{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(6, 6, 24);
+    color: rgb(218, 220, 221);
+    transition: 500ms;
+}
+.cart:hover{
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    border-radius: 55px;
+    color: aliceblue;
+}
